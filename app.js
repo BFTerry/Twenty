@@ -1,1 +1,59 @@
-alert = `Welcome to 20!, This is a compitition to see which player gets closer to the number 20. You are going to be playing against the computer.` /n/n `You will draw numbers from 1 to 10. The computer will stop at 16.' /n/n 'Pay attention to the screen to see what your total is. and if you need another number, press 'y'`;
+com = 0;
+user = 0;
+coms = 0;
+users = 0;
+
+alert = `Welcome to 20!`;
+
+do {
+
+    do {
+        var number = Math.floor(Math.random() * 10 + 1);
+        com = com + number
+        alert(`Computer got ${number}, the Computer now has ${com}.`)
+    } while (com <= 16);
+
+    alert(`Now it's your turn.`)
+
+    do {
+        var number = Math.floor(Math.random() * 10 + 1);
+        user = user + number
+        alert(`You got ${number}, You now have ${user}.`)
+        var userinput = prompt(`If you want to play again press "y"`)
+    } while (userinput == "y");
+
+
+
+
+
+
+
+
+}   while (user1 == y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
