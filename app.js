@@ -22,11 +22,21 @@ do {
         var userinput = prompt(`If you want to play again press "y"`)
     } while (userinput == "y");
 
+    alert(`The Computer has ${com}, and You have ${user}`)
 
+    if ((com > user) && (com <= 20)) {
+        alert(`You Lost!`)
+        coms = coms + 1
+    } else if ((user > com) && (user <= 20)) {
+        alert(`You Won!`)
+        users++
+    } else {
+        alert(`You Tied!`)
+    }
 
+    alert(`Computer: ${coms}  |  You: ${users}`)
 
-
-
+    var user1 = prompt(`If you want to play again type "y"`)
 
 
 }   while (user1 == y)
