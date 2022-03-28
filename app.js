@@ -3,7 +3,7 @@ user = 0;
 coms = 0;
 users = 0;
 
-alert = `Welcome to 20!`;
+alert(`Welcome to 20!`);
 
 do {
 
